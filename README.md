@@ -24,31 +24,27 @@ Project Screen Shots:-
 Installation and Setup Instructions:
 
 Installation & Setup
-🔹 Prerequisites
-
+🔹 Prerequisites: 
 Node.js installed
-
-npm or yarn installed
+npm  installed
 
 🔹 Clone the repository
 git clone <repo-url>
 cd <project-folder>
+
 🔹 Frontend Setup
 npm install
 npm start
 
-App will run on:
-
-http://localhost:3000
+App will run on:  http://localhost:3000
 🔹 Backend Setup
 cd backend
 npm install
 node server.js
 
-Backend will run on:
-http://localhost:4200
-🔹 Environment Variables
+Backend will run on: http://localhost:4200
 
+🔹 Environment Variables
 Create a .env file in backend:
 OMDB_API_KEY=your_api_key
 OMDB_BASE_URL=https://www.omdbapi.com
