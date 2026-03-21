@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
     origin: [
       "http://localhost:3000",
-      "https://searchmovie-rho.vercel.app/",
+      "https://searchmovie-rho.vercel.app",
     ],
     methods: ["GET"],
   }));
